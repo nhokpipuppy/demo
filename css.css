@@ -1,0 +1,408 @@
+*{}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    src:url(DroidSerif-Italic.TTF);
+    font-family: droidserif;
+}
+@font-face{
+    src:url(SFMono-Regular.OTF);
+    font-family: sfmomo-regular;
+}
+html{
+    width:100%;
+    height:100%
+    
+}
+.backgroundmenu{
+    background: red
+    
+}
+.active{
+    color: #FED136 !important;
+}
+.menu div#navbarsExample05 {justify-content: flex-end;}
+
+.menu a.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: #FED136;
+    font-size: 24px;
+}
+
+.menu p.nav-link {margin-right: 20px;color: white;font-size: 17px;}
+
+
+
+.menu .container p.nav-link:hover {
+    color: #fed136 !important;
+}
+
+.menu a.navbar-brand:hover {
+    color: #FEC50B;
+}
+
+button.navbar-toggler {
+    font-size: 12px;
+    font-weight: 700;
+    color: white !important;
+    padding: 13px;
+}
+
+
+
+.banner {
+    width: 100%;
+    background-image: url(1.jpg);
+    background-size: cover;
+    }
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container.text-center {padding-top: 300px;padding-bottom: 200px;}
+
+.banner h2 {
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    font-family: droidserif;
+    margin-bottom: 25px;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner .btn.btn-warning {
+    background: #fed136;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+
+.col-lg-4.col-12 i.fas {
+    font-size: 64px;
+    background: #FED136;
+    padding: 32px 28px;
+    border-radius: 50%;
+    color: white;
+}
+
+.phan1 .container .row .col-lg04.col-12 h3 {
+    padding: 15px 0;
+}
+
+.Phan1 {
+    padding: 150px 0;
+}
+
+.container .col-12 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container .row .col-12 p.tieude {
+    font-family: droidserif;
+    margin-bottom: 75px;
+}
+
+.col-lg-4.col-12 p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.phan2 .muccon {
+  
+position: relative;
+  
+width: 100%;
+  
+transition: 1s;
+}
+
+
+.nenan {
+    font-size: 56px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    margin-top: -42px;
+    opacity: 0;
+}
+
+.background {
+    position: absolute;
+    background: rgba(254, 209, 54, 0.9019607843137255);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:0.5s;
+}
+
+.muccon:hover .background {
+    opacity:0.9;
+    
+}
+.muccon:hover .nenan {
+    opacity:0.9;
+    transition:0.5s
+}
+
+.phan2 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.thong.tin {
+    padding: 25px;
+}
+
+.phan2 p.tieude {
+    font-size: 16px;
+    font-family: droidserif;
+    margin: 0;
+}
+
+.phan2 .col-sm-6.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.phan2 {
+    background: #F8F9FA;
+    padding: 150px 0;
+}
+
+.phan3 .timeline {
+    position: relative;
+}
+
+.timeline-img {
+    position: absolute;
+    left: 50%;
+    border: 7px solid #E9ECEF;
+    margin-left: -85px;
+    border-radius: 50%;
+}
+
+.timeline-img img {
+    border-radius: 50%;
+    width: 156px;
+    height: 156px;
+}
+
+.phan3 li {
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+.trai .timeline-text {padding: 0 20px 20px 100px;width: 41%;text-align: right;}
+
+.phan3 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.timeline-text p {
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    margin: 0;
+}
+
+.phai .timeline-text {
+    float: right;
+    padding: 0 20px 20px;
+    padding-right: 100px;
+    text-align: left;
+    width: 41%;
+}
+
+.timelineend p {
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    background: #FED136;
+    border-radius: 50%;
+    border: 7px solid #E9ECEF;
+}
+
+.timelineend {
+}
+
+.phan3 {
+    padding: 150px 0;
+}
+
+.phan3 .about h2 {font-family: 'Montserrat', sans-serif;font-weight: 700;margin-bottom: 15px;}
+
+.phan3 .about p.tieude {
+    font-family: droidserif;
+    margin-bottom: 75px;
+}
+
+.phan4 .team h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.phan4 p.tieude {
+    font-family: droidserif;
+    margin-bottom: 75px;
+}
+
+.phan4 {
+    background: #F8F9FA;
+    padding: 150px 0;
+}
+
+.phan4 img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid white;
+    border-radius: 50%;
+}
+
+.phan4 .container h2 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.phan4 p.chucvu {
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+}
+@media screen and (max-width: 992px){
+    .trai .timeline-text, .phai .timeline-text {
+    padding: 180px 20px 20px 20px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+}
+}
+.phan4 a.icon {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon i.fab {
+    width: 50px;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+    background: #212529;
+    border-radius: 50%;
+}
+
+.icon i.fab:hover {
+    background: #FED136;
+    transition: 0.3s;
+}
+
+.col-sm-8.mx-auto.text-center {
+    margin-top: 57px;
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+}
+
+.phan5 {
+    padding: 3rem;
+}
+
+
+.phan5 img {
+    width: 100%;
+}
+
+.phan6{
+    padding: 150px 0;
+    background-image: url(19.png);
+    background-size: cover;
+}
+
+input#exampleInputEmail1 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+textarea#exampleFormControlTextarea1 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+    padding-bottom: 8px;
+}
+
+.phan6 h2 {font-family: 'Montserrat', sans-serif;font-weight: 700;margin-bottom: 15px;color: white;}
+
+.phan6 p.tieude {
+    font-family: droidserif;
+    margin-bottom: 75px;
+    color: #6C757D;
+}
+
+.phan6 button.btn-danger {
+    background: #FED136;
+    border: none;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.footer .icon i.fab {
+    font-size: 20px;
+}
+
+footer a.icon {
+    font-size: 20px;
+    text-align: center;
+}
+footer {
+    padding:25px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+    color: #FED136;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: #FED136;
+}
+
+.phan1 {
+    padding: 150px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
